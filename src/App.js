@@ -7,17 +7,14 @@ import Image from "react-bootstrap/Image";
 function App() {
   return (
     <div className="App">
-      <Container fluid>
-        <Row>
-          <Col sm={4} className="col-left left">
-            <div className="avatar container d-flex justify-content-center">
+      <div className="avatar container d-flex justify-content-center">
               <Image
                 thumbnail="true"
                 roundedCircle="true"
                 src="https://linxtheme.com/html/flex/images/resume.jpg"
                 alt="Alternative title"
               ></Image>
-            </div>
+              </div>
             <div className="container-fluid text-center">
               <h1>Fernando Garrido</h1>
               <p className="av1">Born in 25/09/1987</p>
@@ -28,7 +25,10 @@ function App() {
               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
               <a href="#"><i class="fa-brands fa-telegram"></i></a>
             </div>
-            {/* done avatar */}
+      
+      <Container fluid>
+        <Row>
+          <Col sm={4} className="col-left left">
             <div className="container-fluid info bloc">
               <h3 className="info-border">CONTACT INFO.</h3>
             </div>
@@ -62,6 +62,7 @@ function App() {
                 <span>Photoshop</span>
               </div>
             </div>
+            
             {/* done Skills */}
             <div className="container-fluid languages bloc">
               <h3 className="info-border">LANGUAGES</h3>
@@ -132,6 +133,16 @@ function App() {
                 <ins></ins>
                 <ins></ins>
               </p>
+            </div>
+            <div className="container-fluid hobbies bloc">
+              <h3 className="info-border">HOBBIES</h3>
+              <div className="container-fluid hob2">
+                <span>Sport</span>
+                <span>Traveling</span>
+                <span>Photography</span>
+                <span>Hiking</span>
+                <span>Trekking</span>
+              </div>
             </div>
             {/* done languages */}
           </Col>
