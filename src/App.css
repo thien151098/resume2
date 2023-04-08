@@ -86,11 +86,20 @@ i{
   background: #f03434;
   border-radius: 2px;
 }
+@media screen {
+  .lx-resume-language p ins {
+    width: 10px;
+    height: 15px;
+    margin-left: 5px;
+} 
+}
+
 .checkbox p ins.lx-op {
   opacity: 0.3;
 }
 .checkbox p{
   margin-bottom: 0;
+  font-size: 15px;
 }
 .col-right{
   padding-left: 30px;

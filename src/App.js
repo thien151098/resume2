@@ -49,20 +49,81 @@ function App() {
             {/* done Contact info */}
             <div className="container-fluid skills bloc">
               <h3 className="info-border">SKILLS</h3>
-              <div className="container-fluid skills2">
-                <span>All camera formats</span>
-                <span>Digital capture</span>
-                <span>Black-and-white</span>
-                <span>Print</span>
-                <span>Films</span>
-                <span>Adobe Creative Suite</span>
-                <span>In Design</span>
-                <span>CSS/HTML</span>
-                <span>Lightroom</span>
-                <span>Photoshop</span>
-              </div>
+              <div className="checkbox">
+									<p>Lightroom
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+									</p>
+									<p>Photoshop
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+									</p>
+									<p>Print
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+									</p>
+									<p>Films
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+									</p>
+									<p>In Design
+										<ins class="lx-op"></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+									</p>
+									<p>CSS/HTML
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins class="lx-op"></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+										<ins></ins>
+									</p>
+								</div>
             </div>
-            
             {/* done Skills */}
             <div className="container-fluid languages bloc">
               <h3 className="info-border">LANGUAGES</h3>
